@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WhatsApp</string>
+    <string name="botao_cadastrar">Cadastrar</string>
+    <string name="botao_validar">Validar</string>
+    <string name="botao_logar">Logar</string>
+    <string name="texto_cadastre">Não tem conta? Cadastre-se</string>
+    <string name="redefinir_senha">Redefinir Senha</string>
+    <string name="item_configurações">Configurações</string>
+    <string name="item_sair">Sair</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

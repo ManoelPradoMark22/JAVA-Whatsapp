@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/item_configuracoes"
+        android:title="@string/item_configurações"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <!---app:showAsAction="never" nunca aparece como um botao de acao-->
+
+    <item android:id="@+id/item_sair"
+        android:title="@string/item_sair"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/item_pesquisa" android:title="Pesquisar"
+        android:orderInCategory="300" app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_search"/>
+    <!---app:showAsAction="ifRoom" mostra o botao de acao apenas se couber-->
+
+    <item android:id="@+id/item_adicionar" android:title="Adicionar"
+        android:orderInCategory="400" app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_person_add"/>
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity"
+    android:orientation="vertical">
+
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <br.com.whatsappandroid.cursoandroid.whatsapp.helper.SlidingTabLayout
+        android:id="@+id/stl_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorPrimary">
+    </br.com.whatsappandroid.cursoandroid.whatsapp.helper.SlidingTabLayout>
+
+    <android.support.v4.view.ViewPager android:id="@+id/vp_pagina"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </android.support.v4.view.ViewPager>
+        <!--weight define a importancia. 1 significa q vai preencher tudo a baixo!-->
+
+</LinearLayout>
