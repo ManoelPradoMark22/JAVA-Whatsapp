@@ -1,4 +1,4 @@
-# Whatsapp
+# Whatsapp <img src="./whatsapp logo.png" alt="logo" width="40" height="40"> 
 ## Uma aplicação semelhante ao Whatsapp, desenvolvida em programação nativa ANDROID.
 #### Curso: "Desenvolvimento Android Completo - Aprenda a criar 18 Apps - UDEMY"
 
